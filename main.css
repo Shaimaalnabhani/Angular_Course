@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #d5fce9 50%, #4a916e 50%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+   background: #e0e2e4;
+    width: 430px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    margin-right: 600px; 
+}
+
+.container h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;   
+    border-bottom: 2px solid #D1D8E0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  
+    padding-bottom: 16px;
+    margin-bottom: 22px;
+}
+
+.header p {
+    font-size: 15px;
+    font-weight: 400;    
+    color: #555;
+    margin-top: 6px;       
+}
+
+.add {
+    background: #4a916e;
+    color: #fff;
+    border: none;
+    padding: 7px 22px;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.task,
+.task2 {
+    background: #fff;
+    margin-bottom: 14px;
+    padding: 16px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.task input,
+.task2 input {
+    width: 18px;
+    height: 18px;
+}
+
+
+.task label{
+    flex: 1;
+    font-size: 15px;
+    color: #444;
+}
+
+
+.task2 label {
+    flex: 1;
+    font-size: 15px;
+    color: #aaa;
+    font-style: italic;
+}
+
+
+.edit,
+.delete {
+    border: none;
+    width: 38px;
+    height: 38px;
+    border-radius: 7px;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.edit {
+    background: #4a916e;
+}
+
+.delete {
+    background: #d5fce9;
+}
+
+.right {
+    position: absolute;
+    right: 150px;
+    top: 50%;
+    transform: translateY(-60%);
+}
+
+.right p:first-child {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #000;
+}
+
+.right h1 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 80px;
+    color: #000;
+}
+
+.right p:last-child {
+    font-size: 36px;
+    font-weight: 500;
+    color: #f2f2f2;
+}
